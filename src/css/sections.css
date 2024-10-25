@@ -1,0 +1,38 @@
+.jobs {
+
+
+  #jobs-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 72px 0px 56px 0;
+  }
+
+  #jobs-cards-list {
+    flex-wrap: wrap;
+    align-items: center;
+    height: 584px;
+    width: 1040px;
+    gap: 24px;
+    margin-inline: auto;
+    padding-bottom: 144px;
+  }
+
+  #card-jobs {
+    height: 280px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: var(--gray-300);
+    gap: 20px;
+    padding: 12px;
+
+    img {
+      height: 156px;
+      width: 306px;
+      border-radius: 10px;
+    }
+  }
+
+}
+

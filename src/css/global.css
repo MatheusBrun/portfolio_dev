@@ -33,7 +33,7 @@
   --text-sm: 400 14px/140% var(--font-family-Mavenpro);
 }
 
-body{
+body {
   background-color: #16181D;
 }
 
@@ -64,12 +64,24 @@ h3 {
   font: var(--subtitle);
   color: var(--gray-500);
 
-  span {
-    color: var(--red);
-  }
+}
+
+#subititulo-color-red {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.color-red {
+  color: var(--red);
 }
 
 p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+  text-align: center;
+}
+
+#text-sm{
   font: var(--text-sm);
   color: var(--gray-400);
 }
