@@ -1,0 +1,61 @@
+header {
+
+  .profile {
+    background-image: url(../assets/images/Background_Intro.png);
+    /* background-position: center; */
+    background-size: cover;
+    width: 1366px;
+
+  }
+
+
+
+
+
+
+  #primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #avatar {
+      padding-top: 120px;
+      padding-bottom: 56px;
+    }
+
+    #about-profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        padding: 8px 0px 20px 0px;
+      }
+    }
+
+  }
+
+}
+
+.secondary {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+#card {
+  display: flex;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  align-items: center;
+  height: 40px;
+  background-color: var(--gray-300);
+  border-radius: 30px;
+}
+
+#more-profile {
+  padding-top: 99.5px;
+  padding-bottom: 57px;
+  margin: auto;
+}

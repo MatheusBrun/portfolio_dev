@@ -33,11 +33,15 @@
   --text-sm: 400 14px/140% var(--font-family-Mavenpro);
 }
 
+body{
+  background-color: #16181D;
+}
+
 
 .container {
   max-width: 1366px;
-  background-image: url(../assets/images/Background_Intro.png);
-  background-color: rebeccapurple;
+
+  margin-inline: auto;
 }
 
 h1 {
@@ -68,4 +72,8 @@ h3 {
 p {
   font: var(--text-sm);
   color: var(--gray-400);
+}
+
+#text-md {
+  font: var(--text-md);
 }
