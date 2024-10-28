@@ -48,14 +48,35 @@
 
   #services-list {
     width: 1366px;
-    height: 480px;
+
     background-color: var(--gray-100);
   }
 
   #services-head {
     text-align: center;
-    padding-top: 68px;
+    padding-top: 88px;
+    padding-bottom: 56px;
   }
 
+  #services-card-list {
+    padding-bottom: 120px;
+    gap: 24px;
+    justify-content: center
+  }
+
+  #card-services {
+    box-sizing: border-box;
+    width: 280px;
+    height: 155px;
+    border-radius: 10px;
+    /* background-color: var(--gray-200); */
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid var(--gray-200);
+  }
+
+  #card-services div {
+    gap: 8px;
+  }
 
 }
