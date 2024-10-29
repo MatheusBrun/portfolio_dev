@@ -31,6 +31,7 @@
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-Mavenpro);
   --text-sm: 400 14px/140% var(--font-family-Mavenpro);
+  --text-contato-button: 500 16px/140% var(--font-family-Mavenpro);
 }
 
 body {
@@ -71,6 +72,11 @@ h3 {
   color: var(--red);
 }
 
+#subititulo-color-purple {
+  font: var(--subtitle);
+  color: var(--purple);
+}
+
 .color-red {
   color: var(--red);
 }
@@ -81,11 +87,21 @@ p {
   text-align: center;
 }
 
-#text-sm{
+#text-sm {
   font: var(--text-sm);
   color: var(--gray-400);
 }
 
 #text-md {
   font: var(--text-md);
+  color: var(--gray-500);
+}
+
+#gray-500 {
+  color: var(--gray-500);
+}
+
+#text-contato-button {
+  font: var(--text-contato-button);
+  color: var(--gray-500);
 }
